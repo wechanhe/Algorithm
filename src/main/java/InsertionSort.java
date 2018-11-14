@@ -1,5 +1,5 @@
-public class SelectionSort<T extends Comparable> {
-    public T[] selectionSort(T[] numbers){
+public class InsertionSort<T extends Comparable> {
+    public T[] insertionSort(T[] numbers){
         for (int i=0;i < numbers.length-1;i++){
             int j = i+1;
             if (numbers[j].compareTo(numbers[i])<0) {
